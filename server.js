@@ -1,5 +1,6 @@
 import dotenv from "dotenv";
 import express from "express";
+
 import cors from "cors";
 import("./src/connection/connection.js");
 dotenv.config();
