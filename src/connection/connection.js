@@ -12,7 +12,7 @@
   // const altDB =
   //   "mongodb+srv://pankajnaik958:jaknap12@cluster0.ns0rxwp.mongodb.net/studentdata";
 
-    const DBURL = "mongodb://0.0.0.0:27017";
+    const DBURL = "mongodb://0.0.0.0:27017/studentdata";
 
   // Connect to MongoDB
   mongoose
