@@ -20,7 +20,7 @@ app.use("/api/v1/users", userRoutes);
 
 
 app.get("/", (req, res) => {
-  // res.send("Welcome to the ELANSOL Technologies");
+  // res.send("Welcome to the Elansol Technologies ");
   UserModel.find()
   .then(users => res.json(users))
   .catch(err => res.json(err))
@@ -29,3 +29,5 @@ app.get("/", (req, res) => {
 app.listen(port, () => {
   console.log(`server running at port ${port}`);
 });
+
+// end code
